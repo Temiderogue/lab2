@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab2</title>
+  </head>
+  <body style="padding-left:50px;">
+    <header>
+      <h1>Calculator</h1>
+    </header>
+    <main>
+      <input type="text" id="expression" readonly>
+      <br>
+      <p></p>
+      <input type="button" value="1" onclick="addSymbol('1')">
+      <input type="button" value="2" onclick="addSymbol('2')">
+      <input type="button" value="3" onclick="addSymbol('3')">
+      <input type="button" value="+" onclick="addSymbol('+')">
+      <br>
+      <input type="button" value="4" onclick="addSymbol('4')">
+      <input type="button" value="5" onclick="addSymbol('5')">
+      <input type="button" value="6" onclick="addSymbol('6')">
+      <input type="button" value="-" onclick="addSymbol('-')">
+      <br>
+      <input type="button" value="7" onclick="addSymbol('7')">
+      <input type="button" value="8" onclick="addSymbol('8')">
+      <input type="button" value="9" onclick="addSymbol('9')">
+      <input type="button" value="*" onclick="addSymbol('*')">
+      <br>
+      <input type="button" value="0" onclick="addSymbol('0')">
+      <input type="button" value="/" onclick="addSymbol('/')">
+      <input type="button" value="=" onclick="calculate()">
+      <input type="button" value="C" onclick="clearExpression()">
+      <br>
+      <p></p>
+      <h6>Resullt:</h6>
+      <input type="text" id="result" readonly>
+    </main>
+    <footer></footer>
+    <script src="calculator.js"></script>
+  </body>
+</html>
